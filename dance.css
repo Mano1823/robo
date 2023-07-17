@@ -1,0 +1,169 @@
+.container{
+    margin:auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    height:600px;
+    margin-top:100px;
+    border:2px solid blue;
+    background-color: blueviolet;
+    position:relative;
+}
+.outhead{
+    height:110px;
+    width:140px;
+    border-radius:  50% 50% 0px 0px;
+    border: 2px solid skyblue ;
+    background-color: #fff;
+    margin:auto;
+    position:relative;
+    margin-top:100px;
+}
+.inhead{
+    height:60px;
+    width:80px;
+    border-radius: 50% 50% 0% 0%;
+    border: 2px solid skyblue ;
+    background-color: #fff;
+    margin-left:30px;
+    margin-top:30px;
+    position:absolute;
+}
+.eye1{
+    height:20px;
+    width:10px;
+    border-radius: 50%;
+    border: 2px solid black ;
+    background-color:black;
+    margin-left:15px;
+    margin-top:20px;
+    position:absolute;
+}
+.eye2{
+    height:20px;
+    width:10px;
+    border-radius: 50%;
+    border: 2px solid black ;
+    background-color:black;
+    margin-left: 50px;
+    margin-top:20px;
+}
+.stom{
+    height:200px;
+    width:200px;
+    border-radius: 0% 0% 50% 50%;
+    border: 2px solid skyblue ;
+    background-color: #fff;
+    margin-left:359px;
+    margin-bottom:35px;
+    position:absolute;
+}
+.lh{
+    height:150px;
+    width:40px;
+    border-radius: 45px;
+    border: 2px solid skyblue ;
+    background-color: skyblue;
+    margin-left:300px;
+    margin-top:10px;
+    position:absolute;
+}
+.rh{
+    height:150px;
+    width:40px;
+    border-radius: 45px;
+    border: 2px solid skyblue ;
+    background-color: skyblue;
+    margin-bottom: 4%;
+    margin-left: 63%;
+    position:absolute;
+}
+
+.rl{
+    height:150px;
+    width:40px;
+    border-radius: 45px;
+    border: 2px solid skyblue ;
+    background-color: skyblue;
+    margin-top:20%;
+    margin-left: 55%;
+    position: absolute;
+}
+.ll{
+    height:150px;
+    width:40px;
+    border-radius: 45px;
+    border: 2px solid skyblue ;
+    background-color: skyblue;
+    margin-top: 20%;
+    margin-left: 41%;
+    position: absolute;
+}
+.container:hover .stom{
+    animation: stom 1s infinite;
+}
+@keyframes stom{
+    0%{
+        transform: rotate(-45deg);
+    }
+}
+.container:hover .outhead{
+    animation: outhead 1s infinite;
+}
+@keyframes outhead{
+    0%{
+        transform: rotate(45deg);
+    }
+}
+.body:hover.container{
+    animation: container 1s infinite;
+    background-color: indianred,pink,black;
+}
+@keyframes container{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.container:hover .lh{
+    animation:lh 1s infinite;
+}
+@keyframes lh{
+    0%{
+        transform: rotate(45deg);
+    }
+    10%{
+        transform: rotate(25deg);
+    }
+}
+.container:hover .rh{
+    animation:rh 1s infinite;
+}
+@keyframes rh{
+    0%{
+        transform: rotate(45deg);
+    }
+    10%{
+        transform: rotate(25deg);
+    }
+}
+.container:hover .ll{
+    animation:ll 1s infinite;
+}
+@keyframes ll{
+    0%{
+        transform: rotate(45deg);
+    }
+    10%{
+        transform: rotate(25deg);
+    }
+}
+.container:hover .rl{
+    animation: rl 1s infinite;
+}
+@keyframes rl{
+    0%{
+        transform: rotate(45deg);
+    }
+    10%{
+        transform: rotate(25deg);
+    }
+}
